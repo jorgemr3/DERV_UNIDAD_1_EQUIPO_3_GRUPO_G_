@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class P6_cambiacolormaterial : MonoBehaviour
@@ -7,6 +8,7 @@ public class P6_cambiacolormaterial : MonoBehaviour
     Renderer rend;
     [SerializeField]Material color1;
     [SerializeField]Material color2;
+    
 
     int estado;
 
