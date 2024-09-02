@@ -289,7 +289,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 549c18159b697d34eb661e0d4d3e52c2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -328,7 +328,7 @@ Transform:
   m_GameObject: {fileID: 626701869}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 411.33688, y: 149.15494, z: 3.5623348}
+  m_LocalPosition: {x: 411.33688, y: 150.7, z: 3.5623348}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xF1ejejejje"
+  m_text: sample name
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -479,7 +479,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -128.25635, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -644,7 +644,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xF1ejejejje"
+  m_text: sample text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -843,13 +843,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charla:
-  - name: Simon
-    texto: yono lo descargo porke ya lo tengo lollolool
-    imagen: {fileID: 21300000, guid: 74ce135e9640e564298a251059ec45c3, type: 3}
-  - name: Evil Simon
-    texto: xdddddn't
-    imagen: {fileID: 21300000, guid: 74ce135e9640e564298a251059ec45c3, type: 3}
   - name: Morrison
+    texto: ola tonotos
+    imagen: {fileID: 21300000, guid: 74ce135e9640e564298a251059ec45c3, type: 3}
+  - name: Evil Morrison
+    texto: "\xF1ejeje"
+    imagen: {fileID: 21300000, guid: e35db2e84ea6bed43b70599d7be443ba, type: 3}
+  - name: Jorggg
     texto: hoal
     imagen: {fileID: 21300000, guid: 74ce135e9640e564298a251059ec45c3, type: 3}
   txt_msj: {fileID: 787257734}
