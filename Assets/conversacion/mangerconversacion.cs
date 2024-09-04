@@ -46,8 +46,10 @@ public class conversacion : MonoBehaviour
     }
      IEnumerator AumentarTamano(){
         while (true){ 
-        obj.transform.localScale += new Vector3(increaseSpeed, increaseSpeed, increaseSpeed)*contador;
+        obj.transform.localScale += new Vector3(increaseSpeed, increaseSpeed, increaseSpeed);
         yield return new WaitForSeconds(0.01f); 
         }
     }
+    // se crea una metodo iterable que aumenta cada cierto tiempo que este retorna 
+    // y se inicializa en el startCoroutine mandandolo a llamar en el start, funge la misma funcion que un metodo init aunque no se parece 
 }
