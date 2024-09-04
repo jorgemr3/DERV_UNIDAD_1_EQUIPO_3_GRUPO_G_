@@ -18,7 +18,9 @@ public class conversacion : MonoBehaviour
      [SerializeField] TextMeshProUGUI txt_nombre;
     [SerializeField] Image foto_personaje ;
 
-    [SerializeField] private GameObject obj;  
+    [SerializeField] private GameObject obj; 
+
+    [SerializeField] private GameObject obj2;     
     [SerializeField] private float increaseSpeed; 
 
     int contador;
@@ -27,6 +29,7 @@ public class conversacion : MonoBehaviour
         contador=0;
         mostrardialogo();
         StartCoroutine(AumentarTamano());
+        StartCoroutine(AumentarTamano2());
     }
 
     void mostrardialogo(){
@@ -50,6 +53,15 @@ public class conversacion : MonoBehaviour
         yield return new WaitForSeconds(0.01f); 
         }
     }
+
+    IEnumerator AumentarTamano2(){
+        while (true){ 
+        obj2.transform.localScale += new Vector3(increaseSpeed, increaseSpeed, increaseSpeed);
+        yield return new WaitForSeconds(0.01f); 
+        }
+    }
+
+   
     // se crea una metodo iterable que aumenta cada cierto tiempo que este retorna 
     // y se inicializa en el startCoroutine mandandolo a llamar en el start, funge la misma funcion que un metodo init aunque no se parece 
 }
