@@ -18,11 +18,15 @@ public class conversacion : MonoBehaviour
      [SerializeField] TextMeshProUGUI txt_nombre;
     [SerializeField] Image foto_personaje ;
 
+    [SerializeField] private GameObject obj;  
+    [SerializeField] private float increaseSpeed; 
+
     int contador;
     void Start()
     {
         contador=0;
         mostrardialogo();
+        StartCoroutine(AumentarTamano());
     }
 
     void mostrardialogo(){
@@ -38,6 +42,12 @@ public class conversacion : MonoBehaviour
             contador++;
             contador= contador % charla.Count;
             mostrardialogo();
+        }
+    }
+     IEnumerator AumentarTamano(){
+        while (true){ 
+        obj.transform.localScale += new Vector3(increaseSpeed, increaseSpeed, increaseSpeed)*contador;
+        yield return new WaitForSeconds(0.01f); 
         }
     }
 }

@@ -227,138 +227,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 6.082, y: 39.651, z: -28.032}
---- !u!1 &626701869
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 626701873}
-  - component: {fileID: 626701872}
-  - component: {fileID: 626701871}
-  - component: {fileID: 626701870}
-  - component: {fileID: 626701874}
-  - component: {fileID: 626701875}
-  m_Layer: 0
-  m_Name: Sphere
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!135 &626701870
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626701869}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &626701871
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626701869}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 549c18159b697d34eb661e0d4d3e52c2, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &626701872
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626701869}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &626701873
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626701869}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 411.33688, y: 150.7, z: 3.5623348}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &626701874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626701869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff5fd7234ba63c944848cc77ce8eafe3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &626701875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626701869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8694d04a8b2d9a949b8262191bd13a9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colorcito: {r: 0.2623578, g: 0.6886792, b: 0.13968495, a: 0}
 --- !u!1 &680335316
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,13 +539,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 2
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -844,17 +712,123 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   charla:
   - name: Morrison
-    texto: ola tonotos
+    texto: "Hola, soy morrison \xF1ejeje"
     imagen: {fileID: 21300000, guid: 74ce135e9640e564298a251059ec45c3, type: 3}
   - name: Evil Morrison
-    texto: "\xF1ejeje"
+    texto: "Adios soy Evil Morrison \xF1ejejeje"
     imagen: {fileID: 21300000, guid: e35db2e84ea6bed43b70599d7be443ba, type: 3}
-  - name: Jorggg
-    texto: hoal
+  - name: Jorge
+    texto: ...Quien es?
+    imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
+  - name: Evil Morrison
+    texto: soy yo...
+    imagen: {fileID: 21300000, guid: e35db2e84ea6bed43b70599d7be443ba, type: 3}
+  - name: Jorge
+    texto: "\xBF Qu\xE9 vienes a buscar ?"
+    imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
+  - name: Evil Morrison
+    texto: <color=red>A ti...
+    imagen: {fileID: 21300000, guid: e35db2e84ea6bed43b70599d7be443ba, type: 3}
+  - name: Jorge
+    texto: Ya es tarde
+    imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
+  - name: Evil Morrison
+    texto: "Por qu\xE9?"
+    imagen: {fileID: 21300000, guid: e35db2e84ea6bed43b70599d7be443ba, type: 3}
+  - name: Jorge
+    texto: Porque ahora soy yo la que quiere estar sin ti
     imagen: {fileID: 21300000, guid: 74ce135e9640e564298a251059ec45c3, type: 3}
+  - name: Axel sorprendido
+    texto: <b>:0000<b/>
+    imagen: {fileID: 21300000, guid: 5d61d353f3a76994889e65b50da6a550, type: 3}
+  - name: Jorge
+    texto: Por eso vete
+    imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
+  - name: Jorge
+    texto: 'Olvida mi nombre, mi cara, mi casa '
+    imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
+  - name: Jorge
+    texto: Y pega la vuelta
+    imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
+  - name: Evil Morrison
+    texto: Jamas te pude comprender...
+    imagen: {fileID: 21300000, guid: e35db2e84ea6bed43b70599d7be443ba, type: 3}
+  - name: Jorge
+    texto: Vete, olvida mis ojos, mis manos, mis labios
+    imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
+  - name: Jorge
+    texto: Que no te desean...
+    imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
+  - name: Evil Morrison
+    texto: "Est\xE1s mintiendo, yo lo s\xE9"
+    imagen: {fileID: 21300000, guid: e35db2e84ea6bed43b70599d7be443ba, type: 3}
+  - name: Jorge
+    texto: vete, olvida que existo,que me conociste, y no te sorprendas...
+    imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
+  - name: Jorge
+    texto: "Olv\xEDdate todo que t\xFA para eso Tienes experiencia..."
+    imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
+  - name: Evil Morrison
+    texto: "\xA1Por favor, esc\xFAchame! Sabes que comet\xED errores, pero estoy
+      dispuesto a enmendarlos. Te prometo que esta vez ser\xE1 diferente."
+    imagen: {fileID: 21300000, guid: e35db2e84ea6bed43b70599d7be443ba, type: 3}
+  - name: Jorge
+    texto: "\xA1Ya basta! He aprendido a vivir sin ti, y no quiero volver a ese dolor."
+    imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
+  - name: Ana
+    texto: "\xBFPor qu\xE9 sigues insistiendo? Ella ya te dijo que ha superado lo
+      que pas\xF3. Deja que siga adelante."
+    imagen: {fileID: 21300000, guid: 0c88b8586691cc44b8c3705ccaf42242, type: 3}
+  - name: Jorge
+    texto: "El amor gu\xEDa, s\xED, pero tambi\xE9n nos ense\xF1a a crecer. Y en
+      este viaje, he aprendido que mi vida tiene valor propio, m\xE1s all\xE1 de
+      lo que compartimos. Volver atr\xE1s ser\xEDa traicionar lo que he logrado ser
+      sin ti."
+    imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
+  - name: Evil Morrison
+    texto: "\xBFPero c\xF3mo soltar lo que me dio sentido? Sin su amor, todo parece
+      carecer de prop\xF3sito. \xBFNo es el amor el faro que gu\xEDa nuestras vidas?  "
+    imagen: {fileID: 21300000, guid: 74ce135e9640e564298a251059ec45c3, type: 3}
+  - name: ana
+    texto: "El amor no siempre es un camino recto, a veces es un ciclo de encuentros
+      y despedidas. El verdadero desaf\xEDo es encontrar sabidur\xEDa en la p\xE9rdida,
+      aprender que cada final es tambi\xE9n un nuevo comienzo."
+    imagen: {fileID: 21300000, guid: 0c88b8586691cc44b8c3705ccaf42242, type: 3}
+  - name: Evil Morrison
+    texto: "\xBFEntonces debo resignarme a la idea de que nuestra historia termin\xF3?
+      \xBFQue el cap\xEDtulo m\xE1s importante de mi vida fue solo una lecci\xF3n
+      pasajera?"
+    imagen: {fileID: 21300000, guid: e35db2e84ea6bed43b70599d7be443ba, type: 3}
+  - name: Jorge
+    texto: Las lecciones no son menos valiosas por ser pasajeras. Nuestra historia
+      fue importante, pero ahora es parte del pasado. El presente nos pide que sigamos
+      caminos diferentes, con nuevas lecciones por aprender.
+    imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
+  - name: ana
+    texto: El amor es un eco en la eternidad, pero cada eco se desvanece con el tiempo.
+      Dejar ir no es olvidar, sino comprender que el amor, en su esencia, nos transforma
+      y nos prepara para lo que viene.
+    imagen: {fileID: 21300000, guid: 0c88b8586691cc44b8c3705ccaf42242, type: 3}
+  - name: Evil Morrison
+    texto: "Ahora entiendo que el amor que tuvimos ha cumplido su prop\xF3sito. No
+      lo olvidar\xE9, pero tampoco intentar\xE9 revivirlo. Es hora de aceptar lo
+      inevitable y seguir adelante."
+    imagen: {fileID: 21300000, guid: e35db2e84ea6bed43b70599d7be443ba, type: 3}
+  - name: Jorge
+    texto: "Yo tambi\xE9n llevar\xE9 lo que compartimos en mi coraz\xF3n, pero con
+      la serenidad de saber que todo ocurre por una raz\xF3n. Es hora de caminar
+      hacia lo que el futuro nos depara."
+    imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
+  - name: ana
+    texto: "El futuro es un lienzo en blanco, y ustedes, como artistas de su destino,
+      tienen la oportunidad de pintar algo nuevo, algo que refleje la sabidur\xEDa
+      que han ganado. "
+    imagen: {fileID: 21300000, guid: 0c88b8586691cc44b8c3705ccaf42242, type: 3}
   txt_msj: {fileID: 787257734}
   txt_nombre: {fileID: 680335318}
   foto_personaje: {fileID: 1815927034}
+  obj: {fileID: 2044119819}
+  increaseSpeed: 0.001
 --- !u!4 &1045063840
 Transform:
   m_ObjectHideFlags: 0
@@ -1145,7 +1119,7 @@ RectTransform:
   m_GameObject: {fileID: 1815927032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3889, y: 1.3889, z: 1.3889}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1452356048}
@@ -1193,6 +1167,138 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815927032}
   m_CullTransparentMesh: 1
+--- !u!1 &2044119819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2044119825}
+  - component: {fileID: 2044119824}
+  - component: {fileID: 2044119823}
+  - component: {fileID: 2044119822}
+  - component: {fileID: 2044119821}
+  - component: {fileID: 2044119820}
+  m_Layer: 0
+  m_Name: Sphere (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2044119820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044119819}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8694d04a8b2d9a949b8262191bd13a9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorcito: {r: 0.2623578, g: 0.6886792, b: 0.13968495, a: 0}
+--- !u!114 &2044119821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044119819}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff5fd7234ba63c944848cc77ce8eafe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &2044119822
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044119819}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2044119823
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044119819}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3f57b92581f682d4cab49ebcd4ae2121, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2044119824
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044119819}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &2044119825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044119819}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.8104427, z: -0, w: 0.58581793}
+  m_LocalPosition: {x: 417.42, y: 151.07, z: 5.99}
+  m_LocalScale: {x: 0.7656543, y: 0.7656543, z: 0.7656543}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 108.278, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1202,5 +1308,5 @@ SceneRoots:
   - {fileID: 147579378}
   - {fileID: 1452356048}
   - {fileID: 1625861764}
-  - {fileID: 626701873}
   - {fileID: 1045063840}
+  - {fileID: 2044119825}
