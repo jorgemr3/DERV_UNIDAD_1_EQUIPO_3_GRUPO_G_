@@ -227,111 +227,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 6.082, y: 39.651, z: -28.032}
---- !u!1 &597250151
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 597250155}
-  - component: {fileID: 597250154}
-  - component: {fileID: 597250153}
-  - component: {fileID: 597250152}
-  m_Layer: 0
-  m_Name: Sphere
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!135 &597250152
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 597250151}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &597250153
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 597250151}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &597250154
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 597250151}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &597250155
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 597250151}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 407.734, y: 150.90979, z: 5.070284}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &680335316
 GameObject:
   m_ObjectHideFlags: 0
@@ -940,22 +835,22 @@ MonoBehaviour:
     texto: <color=red>A ti...
     imagen: {fileID: 21300000, guid: e35db2e84ea6bed43b70599d7be443ba, type: 3}
   - name: Jorge
-    texto: Ya es tarde
+    texto: Ya es <b><color=red>tarde
     imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
   - name: Evil Morrison
     texto: "Por qu\xE9?"
     imagen: {fileID: 21300000, guid: e35db2e84ea6bed43b70599d7be443ba, type: 3}
   - name: Jorge
-    texto: Porque ahora soy yo la que quiere estar sin ti
+    texto: 'Porque ahora soy yo la que quiere <i> estar sin ti '
     imagen: {fileID: 21300000, guid: 74ce135e9640e564298a251059ec45c3, type: 3}
   - name: Axel sorprendido
-    texto: <b>:0000<b/>
+    texto: <b>:0000
     imagen: {fileID: 21300000, guid: 5d61d353f3a76994889e65b50da6a550, type: 3}
   - name: Jorge
     texto: Por eso vete
     imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
   - name: Jorge
-    texto: 'Olvida mi nombre, mi cara, mi casa '
+    texto: 'Olvida mi nombre, mi cara, mi <color=red>casa '
     imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
   - name: Jorge
     texto: Y pega la vuelta
@@ -976,33 +871,35 @@ MonoBehaviour:
     texto: vete, olvida que existo,que me conociste, y no te sorprendas...
     imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
   - name: Jorge
-    texto: "Olv\xEDdate todo que t\xFA para eso Tienes experiencia..."
+    texto: "<color=green>Olv\xEDdate todo que t\xFA para eso Tienes experiencia..."
     imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
   - name: Evil Morrison
-    texto: "\xA1Por favor, esc\xFAchame! Sabes que comet\xED errores, pero estoy
+    texto: "<u>\xA1Por favor, esc\xFAchame! Sabes que comet\xED errores, pero estoy
       dispuesto a enmendarlos. Te prometo que esta vez ser\xE1 diferente."
     imagen: {fileID: 21300000, guid: e35db2e84ea6bed43b70599d7be443ba, type: 3}
   - name: Jorge
-    texto: "\xA1Ya basta! He aprendido a vivir sin ti, y no quiero volver a ese dolor."
+    texto: "<b><color=red>\xA1Ya basta! he aprendido a vivir sin ti, y no quiero
+      volver a ese dolor."
     imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
   - name: Ana
     texto: "\xBFPor qu\xE9 sigues insistiendo? Ella ya te dijo que ha superado lo
-      que pas\xF3. Deja que siga adelante."
+      que pas\xF3. Deja que siga <u>adelante."
     imagen: {fileID: 21300000, guid: 0c88b8586691cc44b8c3705ccaf42242, type: 3}
   - name: Jorge
-    texto: "El amor gu\xEDa, s\xED, pero tambi\xE9n nos ense\xF1a a crecer. Y en
-      este viaje, he aprendido que mi vida tiene valor propio, m\xE1s all\xE1 de
-      lo que compartimos. Volver atr\xE1s ser\xEDa traicionar lo que he logrado ser
-      sin ti."
+    texto: "<color=blue>El amor gu\xEDa, s\xED, pero tambi\xE9n nos ense\xF1a a crecer.
+      Y en este viaje, he aprendido que mi vida tiene valor propio, m\xE1s all\xE1
+      de lo que compartimos. Volver atr\xE1s ser\xEDa traicionar lo que he logrado
+      ser sin ti."
     imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
   - name: Evil Morrison
-    texto: "\xBFPero c\xF3mo soltar lo que me dio sentido? Sin su amor, todo parece
-      carecer de prop\xF3sito. \xBFNo es el amor el faro que gu\xEDa nuestras vidas?  "
+    texto: "<color=yellow>\xBFPero c\xF3mo soltar lo que me dio sentido? Sin su amor,
+      todo parece carecer de prop\xF3sito. \xBFNo es el amor el faro que gu\xEDa
+      nuestras vidas?  "
     imagen: {fileID: 21300000, guid: 74ce135e9640e564298a251059ec45c3, type: 3}
-  - name: ana
-    texto: "El amor no siempre es un camino recto, a veces es un ciclo de encuentros
-      y despedidas. El verdadero desaf\xEDo es encontrar sabidur\xEDa en la p\xE9rdida,
-      aprender que cada final es tambi\xE9n un nuevo comienzo."
+  - name: Ana
+    texto: "<color=purple>El amor no siempre es un camino recto, a veces es un ciclo
+      de encuentros y despedidas. El verdadero desaf\xEDo es encontrar sabidur\xEDa
+      en la p\xE9rdida, aprender que cada final es tambi\xE9n un nuevo comienzo."
     imagen: {fileID: 21300000, guid: 0c88b8586691cc44b8c3705ccaf42242, type: 3}
   - name: Evil Morrison
     texto: "\xBFEntonces debo resignarme a la idea de que nuestra historia termin\xF3?
@@ -1010,9 +907,9 @@ MonoBehaviour:
       pasajera?"
     imagen: {fileID: 21300000, guid: e35db2e84ea6bed43b70599d7be443ba, type: 3}
   - name: Jorge
-    texto: Las lecciones no son menos valiosas por ser pasajeras. Nuestra historia
-      fue importante, pero ahora es parte del pasado. El presente nos pide que sigamos
-      caminos diferentes, con nuevas lecciones por aprender.
+    texto: <color=black>Las lecciones no son menos valiosas por ser pasajeras. Nuestra
+      historia fue importante, pero ahora es parte del pasado. El presente nos pide
+      que sigamos caminos diferentes, con nuevas lecciones por aprender.
     imagen: {fileID: 21300000, guid: efc88b40d43dbdf4782c8411227701e5, type: 3}
   - name: ana
     texto: El amor es un eco en la eternidad, pero cada eco se desvanece con el tiempo.
@@ -1039,8 +936,7 @@ MonoBehaviour:
   foto_personaje: {fileID: 1815927034}
   obj: {fileID: 2044119819}
   obj2: {fileID: 780922761}
-  obj3: {fileID: 597250151}
-  increaseSpeed: 0.001
+  increaseSpeed: 0.003
 --- !u!4 &1045063840
 Transform:
   m_ObjectHideFlags: 0
@@ -1522,5 +1418,4 @@ SceneRoots:
   - {fileID: 1625861764}
   - {fileID: 1045063840}
   - {fileID: 2044119825}
-  - {fileID: 597250155}
   - {fileID: 780922765}
